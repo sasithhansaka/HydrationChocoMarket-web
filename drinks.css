@@ -1,0 +1,163 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.footer{
+    margin-top: 200px;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.foa{
+    margin-left: 10px;
+    width: 400px;
+}
+.fob{
+    margin-left: 200px;
+}
+.foc{
+    margin-left: 100px;
+}
+.top{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 250px;
+}
+#interst{
+    height: 40px;
+    width: 230px;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: rgb(0, 0, 0);
+    border:1px solid black;
+    background-color: rgb(255, 255, 255);
+    font-size:medium;
+    transition: transform 0.3s ease; 
+    margin-bottom: 30px;
+    margin-left: 1px;
+}
+#interst:hover {
+    /* transform: scale(1.1);  */
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+.obj{
+    margin-top: 0%;
+    position: relative;
+}
+
+.ima, .imb { 
+    margin-left: 10px;
+    height: 250px;
+    width: 290px;
+    margin-right: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease; 
+    cursor: pointer;
+}
+.imb {
+    opacity: 0;
+    position: absolute; 
+}
+.obj:hover .ima {
+    opacity: 0; 
+}
+.obj:hover .imb {
+    opacity: 3; 
+}
+.bo{
+    display: flex;
+    margin-top: 50px;
+}
+.boa{
+    width: 220px;
+    height: 250px;
+    /* margin-left:100px; */
+}
+.imagea{
+    display: flex;
+    margin-left: 95px;
+}
+.imageb{
+    width: 250px;
+    /* background-color: aquamarine; */
+}
+.first{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.pc{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+
+.money{
+    margin-left: 19px;
+    margin-bottom: 19px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Condensed", sans-serif;
+}
+.descri{
+    color: rgb(0, 0, 0);
+    margin-bottom: 0%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:larger;
+}
+.ccc{
+    text-decoration: none;
+    margin-left: 20px;
+    height: 40px;
+    width: 140px;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: rgb(240, 240, 244);
+    border:2px solid black;
+    background-color: black;
+    font-size:medium;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ 
+.pc{
+    opacity: 0;
+    animation: dis 0.3s ease-in-out  1s forwards; ;
+} 
+
+@keyframes dis {
+   0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+.band{
+    margin-top: 210px;
+    position: absolute;
+    margin-left: 160px;
+    padding: 6px;
+    font-family: "Pathway Gothic One", sans-serif;
+    background-color: red;
+    color: white;
+    font: caption;
+    font-weight: 400;
+}
+.best{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+
+

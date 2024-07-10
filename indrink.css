@@ -1,0 +1,45 @@
+
+.create{
+    margin-left: 490px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family:"Squada One", sans-serif;
+}
+input[type="text"],input[type="number"]{
+    border-radius: 10px;
+    width: 390px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-color: rgb(203, 203, 203);
+    margin-left: 100px;
+
+}
+input[type="file"]{
+    width: 390px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-family:"Squada One", sans-serif;
+}
+form {
+    margin-top: 50px;
+    margin-left: 300px;
+    border: 1px solid;
+    width: 700px;
+    height: 590px;
+    padding:40px;
+    
+}
+
+input[type="submit"]{
+    margin-left: 100px;
+    width: 390px;
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+   
+}
+label{
+    font-family:"Squada One", sans-serif;
+}

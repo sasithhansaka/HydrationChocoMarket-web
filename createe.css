@@ -1,0 +1,104 @@
+.create{
+    margin-top: 50px;
+    margin-left: 590px;
+    margin-bottom: 34px ;
+    font-size: 36px;
+    font-family:Roboto Condensed, sans-serif;
+}
+
+input[type="text"]{
+    border-radius: 30px;
+    width: 330px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-left: 570px;
+    border: 1px solid;
+    border-color: rgb(203, 203, 203);
+    padding-left: 25px;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+input[type="email"]{
+    border-radius: 30px;
+    width: 330px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-left: 570px;
+    border: 1px solid;
+    border-color: rgb(203, 203, 203);
+    padding-left: 25px;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+
+form {
+    margin-left: 00px;
+}
+
+input[type="submit"]{
+    margin-left: 570px;
+    width: 330px;
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-family: "Pathway Gothic One", sans-serif;  
+}
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.foa{
+    margin-left: 10px;
+    width: 400px;
+}
+.fob{
+    margin-left: 200px;
+}
+.foc{
+    margin-left: 100px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.ccc{
+    margin-left: 580px;
+}
+/* 
+input[type="text"]:valid {
+    background-color: #e1e8f1; 
+}
+
+input[type="email"]:valid {
+    background-color: #e1e8f1; 
+}
+
+input[type="text"]:focus{
+    background-color: rgb(237, 243, 243);
+}
+
+input[type="email"]:focus{
+    background-color: rgb(237, 243, 243);
+} */
+input[type="submit"]:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+
+a{
+    font-size: medium;
+    color: darkgrey;
+}
+
+
+
+

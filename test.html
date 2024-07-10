@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Background Change</title>
+<style>
+    .old{
+        width: 100vh;
+        display: flex;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider{
+        position: relative;
+        width: 60%;
+        overflow: hidden;
+    }
+    .image{
+        display: flex;
+        width: 100%;
+    }
+    .image img{
+        height: 400px;
+        width: 100%;
+        transition: margin-left 1s ease;
+        
+    }
+    .image input{
+        display: none;
+    }
+    .dots{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .dots label{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: solid;
+        transition: all 1s ease;
+        margin: 5px;
+    }
+    .dots label:hover{
+        background-color: rgb(71, 64, 55);
+    }
+    #im1:checked ~ .m1{
+        margin-left: 0;
+    }
+    #im2:checked ~ .m2{
+        margin-left: -100%;
+
+    }
+    #im2:checked ~ .m1{
+        opacity: 0;
+    }
+    #im1:checked ~ .m1{
+        transition-delay: 2s;
+        opacity: 1;
+       
+    }
+
+
+    
+
+</style>
+</head>
+
+<body>
+<!-- <div class="old">
+   <div class="slider">
+    <div class="image">
+        <input type="radio" name="slide" id="im1" checked>
+        <input type="radio" name="slide" id="im2">
+        <img src="./PRIME_energy_1serve_BlueRaspberry_0000_700x.webp"  class="m1" alt="im1">
+        <img src="./PRIME_energy_1serve_BlueRaspberry_0000_700x.webp" class="m2" alt="im2">
+    </div>
+    <div class="dots">
+        <label for="im1"></label>
+        <label for="im2"></label>
+    </div>
+   </div>
+</div>
+<img src="./PR-icon-1-Coconut_76 (1).webp">
+<img src="./PR-icon-2-Caffeine_73 (1).webp">
+<img src="./PR-icon-3-Electrolytes_61.webp">
+<img src="./PR-icon-4-BVitamins_21.webp">
+<img src="./PR-icon-5-Antioxidants_6.webp"> -->
+<style>
+     .late {
+      overflow-x: auto;
+      overflow-y: hidden;  
+    width: 100%; 
+      white-space: nowrap; 
+    }
+    .scroll {
+      position: relative;
+    }
+   
+    .best {
+      display: inline-block; 
+    max-width: 350px; 
+      height: 350px;
+      transition:  transform 0.5s ease;
+      cursor: pointer;
+    }
+    .best:hover{
+        transform: scale(1.2); 
+    }
+    .late::-webkit-scrollbar {
+      display: none;
+    }
+    .srollbutton {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      z-index: 1;
+    }
+    .Backim,.Nextim {
+      width: 15px; 
+      background-color:rgb(222, 222, 222);
+      border-radius: 50%;
+      padding: 15px;
+      transition:  transform 0.5s ease;
+    }
+    .Backim,.Nextim:hover{
+        transform: scale(1.1); 
+    }
+    #backbtn {
+      left: 10px;
+    }
+    #nextbtn {
+      right: 10px;
+    }
+  </style>
+  
+  <div class="scroll">
+    <div class="late">
+       <img src="./PRIME_energy_1serve_BlueRaspberry_0000_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_LemonLime_0000_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_StrawberryWatermelon_0000_400x.webp" class="best">
+      <img src="./PRIME_energy_1serve_TropicalPunch_0000_700x (1).webp" class="best">
+      <img src="./Original-Front_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_IcePop_0000_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_BlueRaspberry_0000_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_LemonLime_0000_700x.webp" class="best">
+      <img src="./PRIME_energy_1serve_StrawberryWatermelon_0000_400x.webp" class="best">
+      <img src="./PRIME_energy_1serve_TropicalPunch_0000_700x (1).webp" class="best">
+    </div>
+    
+    <div id="backbtn" class="srollbutton" onclick="scroling(-440)">
+      <img src="left-arrow_271220.png" alt="Backim" class="Backim">
+    </div>
+    <div id="nextbtn" class="srollbutton" onclick="scroling(440)">
+      <img src="right-arrow_271228.png" alt="Nextim" class="Nextim">
+    </div>
+  </div>
+  
+  <script>
+    function scroling(scrollAmount) {
+      var container = document.querySelector('.late');
+      container.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
+</body>
+</html>
+

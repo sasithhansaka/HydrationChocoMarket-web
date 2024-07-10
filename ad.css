@@ -1,0 +1,164 @@
+.dashboard{
+    font-family:"Squada One", sans-serif;
+    margin: 5px;
+    font-size: larger;
+    width: 150px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.body{
+    background-color: rgb(228, 218, 218);
+}
+.top{
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
+}
+.topa{
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+    font:bolder;
+    font-size:20px;
+    font-weight: 600;
+    
+}
+.pica{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 50px;
+    width: 40px;
+    position: absolute;
+}
+.topb{
+    margin-left: 100px;
+    margin-top: 70px;
+    position: absolute;
+}
+.money{
+    margin-top: 30px;
+    font-family:"Squada One", sans-serif;
+    width: 230px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px; 
+    font-size: small;
+    font: bolder;
+}
+.countall{
+    margin-top: 30px;
+    font-family:"Squada One", sans-serif;
+    width: 230px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px; 
+    font-size: small;
+    font: bolder;
+
+}
+.sellcount{
+    margin-top: 30px;
+    font-family:"Squada One", sans-serif;
+    width: 230px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px; 
+    font-size: small;
+    font: bolder;
+}
+
+.lefta{
+    width: 900px;
+    margin-top: 70px;
+    margin-left: 350px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 15px; 
+    position: absolute;
+}
+.hold{
+    position: absolute;
+    width: 800px;
+    margin-top: 70px;
+    margin-left: 350px;
+}
+table{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+    
+}
+
+th{
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+ }
+
+ td{
+    width: 150px;
+    height: 40px;
+    font-family:"Squada One", sans-serif;
+ }
+
+input[type="submit"]{
+    margin-left: 29px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.hh{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family:"Squada One", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font:oblique;
+
+}
+
+.beast{
+    width: 50px;
+}
+.ksi{
+    width: 50px;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 200px; 
+    background-color:rgb(53, 53, 53);
+    color: white;
+    font-family: "Pathway Gothic One", sans-serif;
+
+  
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}

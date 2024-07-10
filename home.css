@@ -1,0 +1,319 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.topim{
+    height: 695px;
+    width: 1525px;
+    margin-top: 70px;  
+    animation:dis 0.7s ease-out;
+}
+@keyframes dis {
+   0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    25% {
+        opacity: 0.25;
+        transform: scale(1.05);
+    }
+    50%{
+        opacity: 0.50;
+        transform: scale(1.4);
+    }
+    75%{
+        opacity: 0.75;
+        transform: scale(1.05); 
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.qualitty{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 110px;
+    font-size: 38px;
+    color: aliceblue;
+    font-weight: 700;
+    animation: taken 400ms  step-end ;
+    font-family: "Pathway Gothic One", sans-serif;
+
+}
+
+.qub{
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 120px;
+    background-color: white;
+    color: rgb(80, 80, 82);
+    border: none;
+    height: 40px;
+    width: 140px;  
+    font-family: "Pathway Gothic One", sans-serif; 
+    animation: taken 400ms  step-end ;
+    font-size: larger;
+}
+
+@keyframes taken {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+  
+    }
+}
+.topadd{
+    display: flex;
+}
+.lefta{
+    width: 700px;
+}
+.leftim {
+    height: 540px;
+    width: 560px;
+    margin-left: 200px;
+    margin-top: 49px;
+    transition: transform 0.3s ease;
+}
+
+.leftim:hover {
+    transform: scale(1.15);
+}
+
+.rightim{
+    height: 300px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 150px;
+
+}
+.rightbutton{
+    margin-left: 350px;
+    height: 45px;
+    width: 180px;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: rgb(240, 240, 244);
+    border:2px solid black;
+    background-color: black;
+    font-size:large;
+    transition: transform 0.3s ease;
+
+}
+.rightbutton:hover{
+    transform: scale(1.1); 
+    background-color: rgb(28, 28, 28);
+}
+
+.cold{
+    border-radius: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 70px;
+    background-color: rgb(250, 136, 250);
+    
+    
+}
+.adver{
+    margin-top: 30px;
+    font-size: 45px;
+    font: bolder;
+    font-weight: 1500px;
+    color: rgb(241, 241, 241);
+}
+
+
+.shoppping{
+font-weight: 800;
+    height: 50px;
+    width: 200px;
+    font-family: "Pathway Gothic One", sans-serif; 
+
+}
+
+.bagga{
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 0%;
+}
+.baggb{
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 0%;
+}
+.chock{
+    gap: 30px;
+    margin-left: 10px;
+    background-color:rgb(93, 190, 239);
+    padding: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 0%;
+}
+.chockin{
+    display: flex;
+    margin-left: 150px;
+    gap: 110px;
+    font: bolder;  
+    font-weight: 50;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.chok{
+    width: 230px;
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+}
+.pcl{
+    margin-top: 140px; 
+    width: 80px;
+    margin-left: 50px;
+    
+}
+
+.chok:hover {
+    transform: rotate(-10deg); 
+}
+.late {
+    overflow-x: auto;
+    overflow-y: hidden;  
+  width: 100%; 
+    white-space: nowrap; 
+  }
+  .scroll {
+    position: relative;
+  }
+ 
+  .best {
+    display: inline-block; 
+  max-width: 310px; 
+  margin-left: 30px;
+    height: 300px;
+    transition:  transform 0.5s ease;
+    cursor: pointer;
+  }
+  .best:hover{
+      transform: scale(1.2); 
+  }
+  .late::-webkit-scrollbar {
+    display: none;
+  }
+  .srollbutton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+  }
+  .Backimg,.Nextimg {
+    width: 35px; 
+    background-color:rgb(222, 222, 222);
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  #backbtn {
+    left: 10px;
+    padding: 15px;
+  }
+  #nextbtn {
+    right: 10px;
+  }
+
+.end{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.left{
+    width: 550px;
+}
+
+
+.beast{
+    filter: brightness(0.2); 
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+.beast:hover{
+    filter: brightness(1); 
+    transform: scale(1.2); 
+}
+.ksi{
+    margin-top: 30px;
+    filter: brightness(0.2); 
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+.ksi:hover{
+filter: brightness(1); 
+transform: scale(1.2); 
+}
+.jenab{
+    font-family: "Pathway Gothic One", sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: larger;
+    text-align: justify;
+}
+.jenak{
+    font-family: "Pathway Gothic One", sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size:x-large;
+}
+.jen{
+    display: flex;
+}
+.jen img{
+    width: 253px;
+}
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.foa{
+    margin-left: 10px;
+    width: 400px;
+}
+.fob{
+    margin-left: 200px;
+}
+.foc{
+    margin-left: 100px;
+}
+.colo{
+    margin-bottom: 0%;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: -.025em;
+    font-size: 45px;
+    text-align: center;
+    color: #212b36;
+
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.shopppings{
+    height: 800px;
+    width: 740px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
